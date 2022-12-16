@@ -1,4 +1,4 @@
-###Implementing a PerfectBinaryTree structur from scratch: 
+#Implementing a PerfectBinaryTree structur from scratch: 
     - PerfectBinaryTree.hpp:
         This is going to be a an Interface to solve problems with PerfectBinaryTree DS.
         NOTE: < A Binary Tree is Perfect, if all Internal Nodes have 2 
@@ -31,4 +31,4 @@
             - LevelorderTraversal:
                 returns a vec separated by its level
                 So we can get the Level of the tree  by :
-                    vec.size() 
+                    vec.size()
