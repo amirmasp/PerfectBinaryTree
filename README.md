@@ -1,9 +1,9 @@
 # Implementing a PerfectBinaryTree Data Structures from scratch: 
-    ## PerfectBinaryTree.hpp:
+    - PerfectBinaryTree.hpp:
         This is going to be a an Interface to solve problems with PerfectBinaryTree DS.
         NOTE: < A Binary Tree is Perfect, if all Internal Nodes have 2 
             Children and all Leaf Nodes are at the same Level. >
-    ## main.cpp: 
+     - main.cpp: 
         TheNumberOfNodes is the number of Nodes that will be encapsulated in 
         this->PerfectBinaryTree Object.
         TODO: Only accept input n if n belongs to A = {3, 7, 15, 31, 63, ..., }. 
@@ -16,10 +16,10 @@
         Thus for n = 31,
         the maximum level of this PerfectBinaryTree is 5
     
-    ## TreeNode.hpp: 
+    - TreeNode.hpp: 
         We implement TreeNode Object to create n of them inside the PBT.
 
-    ## PerfectBinaryTree.cpp:    
+    - PerfectBinaryTree.cpp:    
         This DataType object has some member functions to Travers
         1- DFS(Depth First Search) Traversal Algorithms are all implemented in recursive fashion:
             - PreorderTraversal
