@@ -6,7 +6,7 @@
      - main.cpp: 
         TheNumberOfNodes is the number of Nodes that will be encapsulated in 
         this->PerfectBinaryTree Object.
-        TODO: Only accept input n if n belongs to A = {3, 7, 15, 31, 63, ..., }. 
+        TODO: Only accept input n if n belongs to A = {3, 7, 15, 31, 63, ..., 2^n - 1}. 
         TheNumberOfNodes could be only any of Integers {3, 7, 15, 31, 63, ...} 
         l is maximum level of the BT. 
         l = log2(n+1) , assume n = 31 
