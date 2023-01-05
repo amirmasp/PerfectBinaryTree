@@ -34,7 +34,7 @@ The PBT object has members for traversing  purpose inside itself.
 Returns a vector of nodes visited from left to right
 
 2- LevelorderTraversal:
-Returns a vec separated by its level
+Returns a vector separated by its level
 
 so we can get the Level of the tree  by :
 `vec.size()`
