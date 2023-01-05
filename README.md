@@ -17,12 +17,12 @@ maxl is maximum level of the BT.
     the maximum level of this PerfectBinaryTree is 5`
     
 ## TreeNode.hpp: 
-n of TreeNode Objects are used to create this->PBT.
+n TreeNode Objects are used to create this->PBT.
 
 TODO: Make the nodes bidirectional (use doubly Linked list nodes).
 
 ## PerfectBinaryTree.cpp:    
-This DataType object has members for traversing inside PBT.
+The PBT object has members for traversing  purpose inside them.
 ### - DFS(Depth First Search) Traversal Algorithms are all implemented in recursive fashion:
 1- PreorderTraversal
 2- InorderTraversal
