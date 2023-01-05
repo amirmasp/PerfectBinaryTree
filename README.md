@@ -4,9 +4,12 @@ This header file is collection of Interfaces to solve problems with PerfectBinar
 ##### Note: A Binary Tree is Perfect, if all Internal Nodes have 2 Children and all Leaf Nodes are at the same Level. 
 ## main.cpp: 
 TheNumberOfNodes is the number of Nodes that will be encapsulated in this->PerfectBinaryTree Object.
+
 TODO: Only accept input n if n belongs to A = {3, 7, 15, 31, 63, ..., log(n-1)}. 
- maxl is maximum level of the BT. 
- maxl = log2(n+1) , assume n = 31 
+
+maxl is maximum level of the BT. 
+
+`maxl = log2(n+1) , assume n = 31 
     = log2(31+1)
     = log2(32)
     = 5
@@ -15,6 +18,7 @@ TODO: Only accept input n if n belongs to A = {3, 7, 15, 31, 63, ..., log(n-1)}.
     
 ## TreeNode.hpp: 
 n of TreeNode Objects are used to create this->PBT.
+
 TODO: make the node bidirectional.
 
 ## PerfectBinaryTree.cpp:    
