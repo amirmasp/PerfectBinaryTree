@@ -1,6 +1,6 @@
-# Implementing a PerfectBinaryTree Data (PBT)Structures from scratch: 
+# Implementation of a PerfectBinaryTree (PBT) Data Structure from scratch: 
 ## PerfectBinaryTree.hpp:
-This header file is collection of Interfaces to solve problems with PerfectBinaryTree DS.
+This header file is collection of Interfaces to solve problems with PBT DS.
 ##### Note: A Binary Tree is Perfect, if all Internal Nodes have 2 Children and all Leaf Nodes are at the same Level. 
 ## main.cpp: 
 TheNumberOfNodes is the number of Nodes that will be encapsulated in this->PerfectBinaryTree Object.
