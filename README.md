@@ -22,16 +22,20 @@ n TreeNode Objects are used to create this->PBT.
 TODO: Make the nodes bidirectional (use doubly Linked list nodes).
 
 ## PerfectBinaryTree.cpp:    
-The PBT object has members for traversing  purpose inside them.
+The PBT object has members for traversing  purpose inside itself.
 ### - DFS(Depth First Search) Traversal Algorithms are all implemented in recursive fashion:
 1- PreorderTraversal
+
 2- InorderTraversal
+
 3- PostorderTraversal
-### - BFS(Breadth First Search) Traversal Algorithms are implemented using queue DS.:
+### - BFS(Breadth First Search) Traversal Algorithms are implemented using queue DS:
 1- LevelByLevelTraversal:
 Returns a vector of nodes visited from left to right
+
 2- LevelorderTraversal:
 Returns a vec separated by its level
+
 so we can get the Level of the tree  by :
 `vec.size()`
 
