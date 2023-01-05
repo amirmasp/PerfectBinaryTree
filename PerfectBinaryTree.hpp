@@ -23,7 +23,7 @@ class PerfectBinaryTree {
     std::vector<TreeNode*> tree;
     void dfsPreorder(TreeNode* root, std::vector<int>& answer); 
     void dfsInorder(TreeNode* root, std::vector<int>& answer);
-    void dfsPostorder(TreeNode* root, std::vector<int>* answer);// We used pointer argument instead of  reference in this function
+    void dfsPostorder(TreeNode* root, std::vector<int>* answer);
     void bfsLeftToRight(TreeNode* root, std::vector<int>& answer);
     void bfsLevelorder(TreeNode* root, std::vector<std::vector<int>>& answer);
 };
