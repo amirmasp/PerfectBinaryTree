@@ -19,7 +19,7 @@ maxl is maximum level of the BT.
 ## TreeNode.hpp: 
 n of TreeNode Objects are used to create this->PBT.
 
-TODO: make the node bidirectional.
+TODO: Make the nodes bidirectional (use doubly Linked list nodes).
 
 ## PerfectBinaryTree.cpp:    
 This DataType object has members for traversing inside PBT.
